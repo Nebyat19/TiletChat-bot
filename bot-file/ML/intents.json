@@ -1,0 +1,194 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello",
+        "Hi",
+        "Hey",
+        "Greetings"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi! How may I help you?",
+        "Hey there! How can I be of service?",
+        "Greetings! How can I assist you?"
+      ]
+    },
+    {
+      "tag": "about",
+      "patterns": [
+        "Tell me about TiletChat",
+        "What is TiletChat?",
+        "Can you explain TiletChat?",
+        "I want to know about TiletChat"
+      ],
+      "responses": [
+        "TiletChat is an AI-powered chatbot that provides personalized assistance for customer support. It uses natural language processing to understand customer questions and provide accurate answers. TiletChat can be integrated into any website and offers user-friendly customization options.",
+        "TiletChat is a machine learning-based chatbot designed for customer service and support. It analyzes customer inquiries, extracts information from websites, and delivers relevant answers. It's easy to integrate and can be tailored to fit the specific needs of businesses.",
+        "TiletChat is a chatbot that utilizes machine learning and natural language processing to deliver customized customer support. It offers analytics tools for insights into customer inquiries and trends. TiletChat is suitable for businesses of all sizes and industries."
+      ]
+    },
+    {
+      "tag": "benefits",
+      "patterns": [
+        "What are the benefits of TiletChat?",
+        "How does TiletChat help businesses?",
+        "Tell me the advantages of using TiletChat",
+        "Why should I choose TiletChat?"
+      ],
+      "responses": [
+        "TiletChat offers businesses a user-friendly and customizable solution for improving customer service and support. It reduces the workload of support teams, provides accurate responses, and offers valuable analytics insights. TiletChat can be integrated into any website and supports multiple languages.",
+        "With TiletChat, businesses can provide personalized assistance, reduce support team workload, and analyze customer inquiries to enhance overall satisfaction. The chatbot's machine learning algorithms ensure accurate responses, and its user-friendly interface makes it accessible to users of all backgrounds.",
+        "TiletChat provides businesses with a cost-effective solution to improve customer service and support. It offers personalized assistance, analytics tools for insights, multi-language support, and continuous learning through machine learning algorithms. It can be customized to fit specific business needs and seamlessly integrated into websites."
+      ]
+    },
+    {
+      "tag": "languages",
+      "patterns": [
+        "Does TiletChat support multiple languages?",
+        "Can TiletChat handle different languages?",
+        "Is TiletChat available in other languages?",
+        "What languages does TiletChat support?"
+      ],
+      "responses": [
+        "Yes, TiletChat supports multiple languages. It is designed to cater to users from different parts of the world, allowing businesses to serve a diverse customer base with ease.",
+        "Absolutely! TiletChat is equipped to handle multiple languages. This feature enables businesses to provide customer support and assistance in various languages, ensuring effective communication and user satisfaction.",
+        "TiletChat is available in multiple languages, making it accessible to users worldwide. This language support allows businesses to engage with customers from different regions and provide support in their preferred language."
+      ]
+    },
+    {
+      "tag": "improvement",
+      "patterns": [
+        "How does TiletChat improve over time?",
+        "Does TiletChat get better with usage?",
+        "Can TiletChat learn from user interactions?",
+        "Is TiletChat continuously improving?"
+      ],
+     
+
+ "responses": [
+        "TiletChat utilizes machine learning algorithms to continuously improve its accuracy over time. As more users interact with the chatbot, it learns from those interactions, gathers data, and refines its responses. This ensures that it provides increasingly accurate and relevant answers to user inquiries.",
+        "Yes, TiletChat learns from user interactions to enhance its performance. Through machine learning algorithms, it collects data and refines its responses, resulting in improved accuracy and relevance. The more users interact with TiletChat, the better it becomes at understanding and addressing their needs.",
+        "TiletChat has a continuous learning capability powered by machine learning algorithms. It gathers insights from user interactions, adapts to customer preferences, and refines its responses over time. This learning process enables TiletChat to provide more accurate and relevant assistance as it accumulates more user data."
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "How can I contact TiletChat support?",
+        "I need to reach TiletChat",
+        "What is the contact information for TiletChat?",
+        "Can you provide TiletChat's contact details?"
+      ],
+      "responses": [
+        "You can contact TiletChat support by sending an email to info@tiletsolution.com or by calling our helpline at +--. Our dedicated team is ready to assist you with any inquiries or requests you may have.",
+        "To get in touch with TiletChat, you can send an email to info@tiletsolution.com or call our helpline at +--. Our team is available to provide you with the information and assistance you need.",
+        "If you need to contact TiletChat, please feel free to email us at info@tiletsolution.com or give us a call at +--. Our team is here to answer your questions and provide support."
+      ]
+    },
+    {
+      "tag": "newsletter",
+      "patterns": [
+        "How can I join TiletChat's newsletter?",
+        "Sign me up for TiletChat's newsletter",
+        "I want to receive updates from TiletChat",
+        "Tell me about TiletChat's newsletter subscription"
+      ],
+      "responses": [
+        "You can join TiletChat's newsletter by visiting our website and subscribing through the provided form. By signing up, you will stay up to date with the latest news, updates, and important announcements from TiletChat.",
+        "To join TiletChat's newsletter, please visit our website and look for the newsletter subscription section. Enter your email address and submit the form to start receiving regular updates, news, and announcements.",
+        "Stay connected with the latest news and updates from TiletChat by signing up for our newsletter. Simply visit our website, locate the newsletter subscription option, and enter your email address to subscribe."
+      ]
+    },
+    {
+          "tag": "goodbye",
+          "patterns": [
+              "Bye",
+              "See you later",
+              "Goodbye",
+              "Get lost",
+              "Till next time",
+              "bbye"
+          ],
+          "responses": [
+              "See you!",
+              "Have a nice day",
+              "Bye! Come back again soon."
+          ],
+          "context": [
+              ""
+          ]
+      },
+       {
+          "tag": "Identity",
+          "patterns": [
+              "Who are you",
+              "what are you"
+          ],
+          "responses": [
+              "I am Tiletchat, a Deep-Learning chatbot"
+          ]
+      },
+        {
+          "tag": "programmer",
+          "patterns": [
+              "Who made you",
+              "who designed you",
+              "who programmed you"
+          ],
+          "responses": [
+              "I was made by Tiletsolution."
+          ]
+      },
+      {
+          "tag": "options",
+          "patterns": [
+              "How you could help me?",
+              "What you can do?",
+              "What help you provide?",
+              "How you can be helpful?",
+              "What support is offered"
+          ],
+          "responses": [
+              "I am a general purpose chatbot. "
+          ],
+          "context": [
+              ""
+          ]
+      },
+      {
+          "tag": "thanks",
+          "patterns": [
+              "Thanks",
+              "Thank you",
+              "That's helpful",
+              "Awesome, thanks",
+              "Thanks for helping me"
+          ],
+          "responses": [
+              "Happy to help!",
+              "Any time!",
+              "My pleasure"
+          ],
+          "context": [
+              ""
+          ]
+      },
+      
+    {
+      "tag": "social_media",
+      "patterns": [
+        "Does TiletChat have social media accounts?",
+        "Can I connect with TiletChat on social media?",
+        "Where can I find TiletChat on social networks?",
+        "Tell me about TiletChat's presence on social media"
+      ],
+      "responses": [
+        "Yes, TiletChat has an active presence on various social media platforms. You can connect with us and stay updated by following our official accounts on Facebook, Twitter, and Instagram.",
+        "Absolutely! TiletChat can be found on popular social media platforms like Facebook, Twitter, and Instagram. Feel free to connect with us, and we'll keep you informed about our latest news, features, and offers.",
+        "You can find TiletChat on different social media platforms, including Facebook, Twitter, and Instagram. Follow our official accounts to stay connected, receive updates, and engage with our community."
+      ]
+    }
+  ]
+}

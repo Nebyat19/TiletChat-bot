@@ -21,7 +21,6 @@ TiletChat is designed to streamline customer interactions by leveraging advanced
 
 ![Screenshot 2: TiletChat](/screenshots/chatbot2.png)
 *TiletChat*
-
 ![Screenshot 3: TiletChat](/screenshots/chatbot1.png)
 *TiletChat*
 
@@ -34,7 +33,5 @@ TiletChat is designed to streamline customer interactions by leveraging advanced
 - **Flask**: A lightweight WSGI web application framework.
 - **SQLite**: A relational database management system for storing user data.
 
-## Installation
 
-1. Clone the repository:
 
